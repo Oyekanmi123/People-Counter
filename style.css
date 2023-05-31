@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image:url("Dog.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    height: 100vh;
+}
+
+.container{
+    max-width: 80%;
+    margin: auto;
+    background: white;
+    border: 1rem solid deeppink;
+    border-radius: 2rem;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+h1{
+    font-size: 2rem;
+    color: black;
+    /* margin: 30px 0 30px; */
+}
+
+h2{
+    font-size: 4rem;
+    color: deeppink;
+    margin-top: 0;
+    
+    
+}
+
+button{
+    display: block;
+    color: #fff;
+    width: 10rem;
+    margin: 20px auto;
+    border: none;
+    outline: none;
+    padding: 1rem 1rem;
+    font-size: 1rem;
+    border-radius: .5rem;
+}
+
+#increment-btn{
+    background-color: whitesmoke;
+    color: black;
+    border: 1rem solid black;
+}
+
+#increment-btn:hover{
+    border: 1rem solid hotpink;
+    background: black;
+    color: white;
+}
+
+#save-btn{
+    border: 1rem solid deeppink;
+    background: black;
+    color: white;
+    
+}
+
+#save-btn:hover{
+    background-color: lightpink;
+    color: black;
+    border: 1rem solid black;
+}
+
+#save-el{
+    font-size: 1rem;
+    color: black;
+    font-weight: bold;
+}
